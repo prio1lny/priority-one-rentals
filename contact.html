@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Priority One Rentals to request a quote, schedule a site consultation, or ask about equipment availability." />
+  <title>Contact | Priority One Rentals</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="index.html" aria-label="Priority One Rentals home">
+        <div class="brand-mark" aria-hidden="true"><span></span></div>
+        <span>Priority One Rentals</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="rentals.html">Rentals</a>
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="hero-card">
+          <div class="hero-content">
+            <div class="kicker">Let’s coordinate your next job</div>
+            <h1>Talk with our team about the right equipment and timing.</h1>
+            <p class="section-lead">Whether you need a same-day recommendation or a multi-unit rental plan, our team is here to help you keep the project on pace.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="card">
+          <div class="kicker">Request a quote</div>
+          <form data-contact-form>
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" />
+            </div>
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" placeholder="(555) 555-5555" />
+            </div>
+            <div class="field">
+              <label for="equipment">Equipment Needed</label>
+              <select id="equipment" name="equipment">
+                <option>Dump Trailer</option>
+                <option>Zero-Turn Mower</option>
+                <option>Message Board</option>
+                <option>General Consultation</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="message">Project Details</label>
+              <textarea id="message" name="message" placeholder="Tell us about the jobsite, timeline, and rental requirements."></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Send Request</button>
+            <p class="muted" data-form-status aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="card">
+          <div class="kicker">Direct contact</div>
+          <h3>Priority One Rentals</h3>
+          <p class="muted">123 Contractor Way<br />Suite 400<br />Houston, TX 77002</p>
+          <p><strong>Phone:</strong> (555) 123-4567</p>
+          <p><strong>Email:</strong> hello@priorityonerentals.com</p>
+          <div class="cta-panel">
+            <strong>Hours</strong>
+            <p class="muted">Monday – Friday: 7:00 AM – 6:00 PM<br />Saturday: By appointment</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true"><span></span></div>
+          <span>Priority One Rentals</span>
+        </div>
+        <p class="muted">Premium industrial equipment rentals for contractors and property professionals.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <p><a href="rentals.html">Rentals</a></p>
+        <p><a href="about.html">About</a></p>
+        <p><a href="faq.html">FAQ</a></p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p><a href="contact.html">Book a Consultation</a></p>
+        <small>© <span data-year></span> Priority One Rentals</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
