@@ -3,9 +3,139 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Zero-Turn Mower rental details from Priority One Rentals." />
-  <title>Zero-Turn Mower | Priority One Rentals</title>
+  <meta name="description" content="Rent the 2025 Toro TimeCutter MAX MyRIDE 50 zero-turn mower from Priority One Rentals." />
+  <title>2025 Toro TimeCutter MAX MyRIDE 50" | Priority One Rentals</title>
   <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    .detail-hero {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 1.25rem;
+      align-items: stretch;
+    }
+    .detail-hero .hero-content {
+      padding: 2rem;
+    }
+    .detail-hero .hero-content h1 {
+      margin-top: 0;
+      margin-bottom: 0.75rem;
+    }
+    .detail-hero .hero-content p {
+      margin-bottom: 1rem;
+      max-width: 680px;
+    }
+    .detail-hero .detail-image {
+      min-height: 420px;
+      overflow: hidden;
+      border-radius: 18px;
+      border: 1px solid rgba(255,255,255,0.08);
+      box-shadow: var(--shadow);
+      background: linear-gradient(145deg, #191d24, #090b0f);
+    }
+    .detail-hero .detail-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: saturate(0.9) contrast(1.05) brightness(0.8);
+    }
+    .detail-actions {
+      display: flex;
+      gap: 0.8rem;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+    }
+    .rate-grid,
+    .gallery-grid,
+    .faq-list {
+      display: grid;
+      gap: 1rem;
+    }
+    .rate-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .gallery-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .rate-card {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: linear-gradient(160deg, rgba(24,29,37,0.96), rgba(14,16,20,0.96));
+      padding: 1.2rem;
+      box-shadow: var(--shadow);
+      text-align: center;
+    }
+    .rate-card strong {
+      display: block;
+      font-size: 1.55rem;
+      color: var(--highlight);
+      margin-bottom: 0.35rem;
+    }
+    .spec-table {
+      width: 100%;
+      border-collapse: collapse;
+      overflow: hidden;
+      border-radius: 16px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--line);
+    }
+    .spec-table th,
+    .spec-table td {
+      padding: 0.95rem 1rem;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      text-align: left;
+      vertical-align: top;
+    }
+    .spec-table th {
+      width: 38%;
+      color: var(--text);
+      background: rgba(255,255,255,0.04);
+    }
+    .spec-table tr:last-child td,
+    .spec-table tr:last-child th {
+      border-bottom: none;
+    }
+    .gallery-item {
+      background: linear-gradient(160deg, rgba(24,29,37,0.96), rgba(14,16,20,0.96));
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+    .gallery-item img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      filter: saturate(0.9) contrast(1.05) brightness(0.78);
+    }
+    .faq-item {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,0.03);
+      overflow: hidden;
+    }
+    .faq-question {
+      width: 100%;
+      background: transparent;
+      color: var(--text);
+      text-align: left;
+      border: none;
+      padding: 1rem 1.1rem;
+      font: inherit;
+      font-weight: 800;
+      cursor: pointer;
+    }
+    .faq-answer {
+      display: none;
+      padding: 0 1.1rem 1rem;
+      color: var(--muted);
+    }
+    .faq-item.open .faq-answer { display: block; }
+    .inline-note {
+      color: var(--highlight);
+      font-weight: 700;
+    }
+    @media (max-width: 900px) {
+      .detail-hero,
+      .rate-grid,
+      .gallery-grid { grid-template-columns: 1fr; }
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -27,34 +157,117 @@
 
   <main>
     <section class="page-hero">
-      <div class="container">
-        <div class="hero-card">
-          <div class="hero-content">
-            <div class="kicker">Equipment detail</div>
-            <h1>Zero-Turn Mower</h1>
-            <p class="section-lead">Built for speed, clean cuts, and quick turnarounds across plazas, estates, commercial lots, and large landscaped sites.</p>
+      <div class="container detail-hero">
+        <div class="hero-card hero-content">
+          <div class="kicker">Equipment detail</div>
+          <h1>2025 Toro TimeCutter MAX MyRIDE 50"</h1>
+          <p class="section-lead">Commercial-grade performance with premium operator comfort.</p>
+          <p class="section-lead">The Toro TimeCutter MAX MyRIDE 50 delivers commercial-quality mowing performance with a fabricated IronForged cutting deck, Kawasaki V-Twin engine, and Toro's MyRIDE suspension system. Designed for large residential properties, estates, commercial grounds, and sports fields, it provides a fast, smooth, and professional mowing experience.</p>
+          <div class="detail-actions">
+            <a class="btn btn-primary" href="../contact.html">Reserve This Mower</a>
+            <a class="btn btn-secondary" href="tel:5551234567">Call Now</a>
           </div>
+        </div>
+        <div class="detail-image">
+          <img src="../images/toro/toro-zero-turn.jpg" alt="2025 Toro TimeCutter MAX MyRIDE 50 zero-turn mower" />
         </div>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
+        <div class="kicker">Specifications</div>
+        <h2 class="section-title">Toro TimeCutter MAX MyRIDE 50"</h2>
+        <table class="spec-table">
+          <tbody>
+            <tr><th>Model</th><td>Toro TimeCutter MAX MyRIDE 50"</td></tr>
+            <tr><th>Model Number</th><td>77502</td></tr>
+            <tr><th>Year</th><td>2025</td></tr>
+            <tr><th>Engine</th><td>Kawasaki FR691V V-Twin</td></tr>
+            <tr><th>Horsepower</th><td>23 HP</td></tr>
+            <tr><th>Displacement</th><td>726cc</td></tr>
+            <tr><th>Cutting Width</th><td>50"</td></tr>
+            <tr><th>Deck</th><td>IronForged Fabricated Steel</td></tr>
+            <tr><th>Transmission</th><td>Dual Hydro-Gear ZT-2200</td></tr>
+            <tr><th>Fuel Capacity</th><td>5 Gallons</td></tr>
+            <tr><th>Fuel Type</th><td>Regular 87 Octane Gasoline</td></tr>
+            <tr><th>Top Speed</th><td>Approximately 7 MPH</td></tr>
+            <tr><th>Starting</th><td>Electric</td></tr>
+            <tr><th>Suspension</th><td>Toro MyRIDE Suspension System</td></tr>
+            <tr><th>Country of Manufacture</th><td>Mexico</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container">
         <div class="contact-grid">
           <article class="card">
-            <h2>Ideal for</h2>
+            <div class="kicker">Recommended uses</div>
             <ul class="mini-list">
-              <li>Commercial property maintenance</li>
-              <li>Large lawn and turf cleanup</li>
-              <li>Event grounds and sports field prep</li>
+              <li>Large Residential Properties</li>
+              <li>Commercial Properties</li>
+              <li>Sports Fields</li>
+              <li>HOA Communities</li>
+              <li>Municipal Grounds</li>
+              <li>Estate Maintenance</li>
             </ul>
           </article>
           <article class="card">
-            <h2>Rental notes</h2>
-            <p class="muted">This mower pairs speed with quality cutting performance for crews that need efficiency without sacrificing the final finish.</p>
-            <a class="btn btn-primary" href="../contact.html">Reserve This Unit</a>
+            <div class="kicker">Features</div>
+            <ul class="mini-list">
+              <li>23 HP Kawasaki Commercial V-Twin</li>
+              <li>50" IronForged fabricated cutting deck</li>
+              <li>Toro MyRIDE suspension platform</li>
+              <li>Dual Hydro-Gear commercial transmissions</li>
+              <li>Electric start</li>
+              <li>Comfortable high-back seat</li>
+              <li>Excellent for large residential and commercial properties</li>
+            </ul>
           </article>
         </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="kicker">Rental rates</div>
+        <h2 class="section-title">Flexible rental options</h2>
+        <div class="rate-grid">
+          <article class="rate-card"><strong>$185</strong><div class="muted">Daily</div></article>
+          <article class="rate-card"><strong>$325</strong><div class="muted">Weekend</div></article>
+          <article class="rate-card"><strong>$550</strong><div class="muted">Weekly</div></article>
+          <article class="rate-card"><strong>$5,000</strong><div class="muted">Monthly</div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container">
+        <div class="kicker">Delivery</div>
+        <h2 class="section-title">Rental support beyond pickup</h2>
+        <p class="section-lead">Delivery Available<br />Customer Pickup Available<br />Trailer Not Included</p>
+        <div class="detail-actions">
+          <a class="btn btn-primary" href="../contact.html">Reserve This Mower</a>
+          <a class="btn btn-secondary" href="tel:5551234567">Call Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="kicker">Rental requirements</div>
+        <h2 class="section-title">Before booking this mower</h2>
+        <ul class="mini-list">
+          <li>Must be returned with the same fuel level as when rented or refueling charges will apply.</li>
+          <li>Must be returned clean and free of grass clippings, mud, leaves, sticks, pet waste, and other debris.</li>
+          <li>Customer is responsible for any damage caused by misuse, improper transportation, impacts, neglect, or abuse.</li>
+          <li>Do not mow rocks, wire, tree stumps, hidden obstacles, or excessively steep terrain.</li>
+          <li>Operator must be at least 18 years old.</li>
+          <li>Valid government-issued photo ID required.</li>
+          <li>Machine may not leave the approved rental location without written approval.</li>
+        </ul>
       </div>
     </section>
   </main>
